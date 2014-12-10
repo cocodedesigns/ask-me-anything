@@ -1,0 +1,130 @@
+# Copyright (C) 2014 
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: chineserestaurant 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-12-02 16:55+0100\n"
+"Last-Translator: alexitsios <alexisitsios@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: 404.php:7
+msgid "404 ERROR!"
+msgstr ""
+
+#: 404.php:8
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr ""
+
+#: comments.php:14
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:21 comments.php:39
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:22
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:23 comments.php:41 
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:46 
+msgid "Comments are closed."
+msgstr ""
+
+#: header.php:28
+msgid "Page %s"
+msgstr ""
+
+#: index.php:27 index.php:57
+msgid "comment"
+msgstr ""
+
+#: index.php:27 index.php:57
+msgid "comments"
+msgstr ""
+
+#: index.php:29 index.php:59
+msgid "No comments"
+msgstr ""
+
+#: index.php:74
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: index.php:80
+msgid "&laquo; Newer posts"
+msgstr ""
+
+#: index.php:80
+msgid "Older posts &raquo;"
+msgstr ""
+
+#: functions.php:125
+msgid "This is the widgetized sidebar."
+msgstr ""
+
+#: functions.php:123
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:247 functions.php:270
+msgid "Theme Settings"
+msgstr ""
+
+#: functions.php:275
+msgid "Options saved"
+msgstr ""
+
+#: functions.php:287
+msgid "Upload Favicon"
+msgstr ""
+
+#: functions.php:291
+msgid "Enter a url or upload the favicon image"
+msgstr ""
+
+#: functions.php:299
+msgid "Left Box"
+msgstr ""
+
+#: functions.php:301
+msgid "Enter the text for the left sidebar"
+msgstr ""
+
+#: functions.php:310
+msgid "Right Box"
+msgstr ""
+
+#: functions.php:314
+msgid "Enter the text for the right sidebar"
+msgstr ""
+
+#: functions.php:320
+msgid "Tracking Code"
+msgstr ""
+
+#: functions.php:321
+msgid "Enter your analytics tracking code"
+msgstr ""
+
+#: page.php:8 single.php:30
+msgid "Pages:"
+msgstr ""
+
+#: sidebar.php:4
+msgid "Widgetized Sidebar"
+msgstr ""
+
+#: sidebar.php:5
+msgid "This panel is active and ready for you to add some widgets via the WP Admin"
+msgstr ""

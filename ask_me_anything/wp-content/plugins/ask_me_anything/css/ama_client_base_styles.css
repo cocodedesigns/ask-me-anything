@@ -1,0 +1,83 @@
+#ama_page_overlay{
+	display:none;
+	background: #000;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	opacity: .5;
+	z-index: 50000;
+	width: 100%;
+	height: 100%;
+}
+
+.ama_trigger{
+	cursor:pointer;
+}
+
+.ama_modal_window{
+	display:none;
+	position: absolute;
+	background:white;
+	z-index: 50005;
+	width: 60%;
+	top: 2em;
+	padding: 2%;
+	-moz-box-shadow: 3px 3px 4px #444;
+	-webkit-box-shadow: 3px 3px 4px #444;
+	box-shadow: 3px 3px 4px #444;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#444444')";
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#444444');
+}
+
+.ama_modal_window h1{
+	border-bottom:1px solid;
+	margin:0;
+}
+
+.ama_modal_window .field_wrap{
+	margin: 1em 0;
+}
+
+.ama_modal_window label{
+	display: block;
+}
+
+.ama_modal_window .wrap label{
+	display: inline;
+}
+
+.ama_modal_window input[type="text"],
+.ama_modal_window input[type="email"],
+.ama_modal_window input[type="url"],
+.ama_modal_window select,
+.ama_modal_window textarea{
+	width: 100%;
+	padding:.5em;
+}
+
+.ama_modal_window textarea{
+	height:	5em;
+	-webkit-transition: height 0.2s;
+	-moz-transition: height 0.2s;
+	transition: height 0.2s;
+}
+
+.ama_modal_window input.error{
+	box-shadow:0 0 0 1px red;
+}
+
+.ama_modal_window label.error{
+	color: red;
+}
+
+.ama_modal_window .close_ama_modal{
+	position: absolute;
+	cursor: pointer;
+	right: 1em;
+	box-shadow: none;
+	border: none;
+}
+
+.ama_modal_window input[type="submit"]{
+	text-transform: none;
+}

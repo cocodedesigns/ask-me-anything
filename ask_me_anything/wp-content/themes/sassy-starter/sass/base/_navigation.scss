@@ -1,0 +1,15 @@
+/* =Navigation
+----------------------------------------------- */
+
+.site-main [class*="navigation"] {
+	margin: 0 0 $margin-bottom;
+	overflow: hidden;
+}
+[class*="navigation"] .nav-previous {
+	@extend %span_6;
+}
+[class*="navigation"] .nav-next {
+	@extend %span_6;
+	float: right;
+	text-align: right;
+}

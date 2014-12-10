@@ -1,0 +1,30 @@
+<div class="ama_modal_window" data-id="{{form_id}}">
+	<form>
+		<input type="hidden" name="form_id" value="{{form_id}}">
+		<input type="hidden" name="notify_admin" value="{{notification_email}}">
+		<input type="hidden" name="redirect_type" value="{{redirect}}">
+		<input type="hidden" name="redirect_to_post" value="{{redirect_page_post}}">
+		<input type="hidden" name="redirect_external_url" value="{{redirect_external_url}}">
+
+		{{#captcha}}
+		<div style="display:none">
+			<input type="text" name="g0A_egax3f-u" value="">
+		</div>
+		{{/captcha}}
+
+		<img class="close_ama_modal" src="{{close_icon}}">
+		
+		<h1>{{title}}</h1>
+		<div id="form_fields">
+			{{#fields}}
+			<div class="field_wrap">
+				<label for="form_field_{{idx}}">{{field_title}}</label>
+				{{{field_input}}}
+			</div>
+			{{/fields}}
+		</div>
+		<div id="submit_btn_wrap">
+			<input type="submit" class="ladda-button" value="{{submit_button_text}}">
+		</div>
+	</form>
+</div>
