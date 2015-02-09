@@ -1,4 +1,4 @@
-<?php 
+<?php
 /* This file holds all the hooks functions that filter the new navigation*/
 
 /* Removes ability to add a new AMA from the toolbar */
@@ -36,11 +36,9 @@ function FAQContent() {
                 <h1>
                     Ask Me Anything Plugin FAQ
                 </h1>
-                <p>Thank you for purchasing my plugin! Here\'s a short list of some common questions and how-to\'s. If you ever get stuck, you can always head over to LINK_TBD and check out the message board.
-                </p>
                 <hr>
-                
-                <p><strong>Q:</strong> 
+
+                <p><strong>Q:</strong>
                     <em>
                         "Why do I see two modal windows overlapping on a page?"
                     </em>
@@ -54,7 +52,7 @@ function FAQContent() {
 
                 <hr>
 
-                <p><strong>Q:</strong> 
+                <p><strong>Q:</strong>
                     <em>
                         "When I go to manage styles, the form is not that wide. Is that how it will look on my site?"
                     </em>
@@ -63,8 +61,8 @@ function FAQContent() {
                     <strong>A:</strong> No. The form you\'re presented with is just to approximate what your styled form will look like in real time. It won\'t be as narrow, and the input fields will match what you have configured on the real form you\'re applying the style to.
                 </p>
                 <hr>
-                
-                <p><strong>Q:</strong> 
+
+                <p><strong>Q:</strong>
                     <em>
                         "Why are the question posts set as drafts when they are submitted"
                     </em>
@@ -74,7 +72,7 @@ function FAQContent() {
                 </p>
                 <hr>
 
-                <p><strong>Q:</strong> 
+                <p><strong>Q:</strong>
                     <em>
                         "How can I style the list discussion?"
                     </em>
@@ -84,13 +82,13 @@ function FAQContent() {
                 </p>
                 <hr>
 
-                <p><strong>Q:</strong> 
+                <p><strong>Q:</strong>
                     <em>
                         "Can I make suggestions for new features?"
                     </em>
                 </p>
-                
-                
+
+
                 <p>
                     <strong>A:</strong> Of course! You should feel free to make any suggestions that you feel would be an improvement. If others are asking for it as well, it will likely be implemented in future releases.
                 </p>

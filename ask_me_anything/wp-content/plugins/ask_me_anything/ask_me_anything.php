@@ -1,12 +1,12 @@
 <?php
 /**
  * Plugin Name: Ask Me Anything
- * Plugin URI: http://URI_Of_Page_Describing_Plugin_and_Updates
+ * Plugin URI: https://github.com/mattkaye/ask-me-anything
  * Description: Allows site users to directly ask a questions to the site owner. Highly configurable form fields and colors. Questions can be answered either privately though email or in a Q&A style directly on the site.
  * Version: 1.0
  * Author: Matt Kaye
  * Author URI: http://netcandy.co
- * License: Commercial Use
+ * License: Do what you want :)
  */
 
 //Include files
