@@ -1,6 +1,4 @@
-# ask-me-anything
-Ask Me Anything WordPress Plugin
-
+# Ask Me Anything WordPress Plugin
 This is a WordPress plugin which allows you to create simple modal window forms that collect question data from your users. The QA style feedback can be either private or posted to the site as a public thread. The form questions and styles are highly configurable.
 Simply install the plugin and away you go!
 
